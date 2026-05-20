@@ -59,18 +59,6 @@ During Hajj, millions of pilgrims gather in a confined area, creating extreme cr
 
 ---
 
-## ⚡ Quick Start
-
-1. Open the notebook in Google Colab:
-
-   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/csstudentkaum/YOLOv26-Based-Deep-Learning-Approach-for-Detecting-Medical-Emergencies-in-Hajj-Crowd/blob/main/Hajj_Crowd_Detection_.ipynb)
-
-2. Set the runtime to **GPU** (T4 recommended): `Runtime → Change runtime type → T4 GPU`
-
-3. Run all cells in order — the notebook will install dependencies, download the dataset, train the model, and run inference automatically.
-
----
-
 ## 📊 Model Training
 
 Two YOLOv26 model sizes are trained and compared to select the best trade-off between accuracy and inference speed. The chosen model is then evaluated on the held-out test set and applied to a real Hajj crowd video.
