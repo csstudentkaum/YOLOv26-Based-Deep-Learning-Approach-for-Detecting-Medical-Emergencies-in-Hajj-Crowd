@@ -1,4 +1,4 @@
-# CrowdShield 🛡️
+# CrowdShield 
 ### YOLOv26-Based Deep Learning Approach for Detecting Medical Emergencies in Hajj Crowd
 
 ---
@@ -8,6 +8,9 @@
 During Hajj, millions of pilgrims gather in a confined area, creating extreme crowd density. People can collapse from heat exhaustion or medical emergencies, yet security operators cannot monitor hundreds of camera feeds simultaneously — meaning collapsed individuals often go unnoticed until it is too late.
 
 **CrowdShield** addresses this by fine-tuning a **YOLOv26** object detection model on annotated Hajj crowd images to **automatically detect collapsed persons in real time**. When a collapsed person is detected, an alert is triggered immediately, enabling rapid emergency response.
+
+This project was developed as part of the **“Computer Vision for Developers”** program by SDAIA.
+
 
 ---
 
@@ -69,9 +72,3 @@ Two YOLOv26 model sizes are trained and compared to select the best trade-off be
 
 - **Manar Abdullah Alharbi**
 - **Asma Sanad Almurashi**
-
----
-
-## 📄 License
-
-This project is intended for academic and research purposes.
